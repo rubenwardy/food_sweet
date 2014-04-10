@@ -1,4 +1,4 @@
--- SWEET FOOD MOD
+-- SWEET FOODS
 -- A mod written by rubenwardy that adds
 -- sweet food to the minetest game
 -- =====================================
@@ -6,6 +6,8 @@
 -- Adds cakes, pies, waffles, and sweet
 -- things
 -- =====================================
+
+print("Sweet Foods - Version 0.1")
 
 -- Boilerplate to support localized strings if intllib mod is installed.
 local S
@@ -19,6 +21,11 @@ end
 food.support("strawberry","farming_plus","farming_plus:strawberry_item")
 food.support("strawberry","plantlib","plantlib:strawberry")
 food.support("rhubarb","farming_plus","farming_plus:rhubarb_item")
+
+if minetest.setting_get("food_sweet_use_2d")==nil then
+	minetest.setting_set("food_sweet_use_2d", "1")
+end
+
 
 food.asupport("walnut",function()
 	minetest.register_craftitem("food_sweet:walnut", {
@@ -109,7 +116,7 @@ food.register("food_sweet:cake_walnut_coffee",{
 			{0.1875,0.0625,-0.3125,0.3125,0.1875,-0.1875}, --NodeBox5
 		}
 	}
-})
+},"sweet")
 minetest.register_craftitem("food_sweet:cakemix_walnut_coffee",{
 	description = S("Walnut and Coffee Cake Mix"),
 	inventory_image = "food_sweet_cakemix_walnut_coffee.png"
