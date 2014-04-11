@@ -10,7 +10,14 @@ Version 0.1
 * Triple chocolate cake
 * Coffee and walnut cheese cake
 * Rhubarb crumble
-* Wedding cake
+* Wedding 
+* Cupcake
+* Cupcake
+* Chocolate Cupcake
+* Lemon Drizzle Cupcake
+* Fairy Cake
+* Chocolate Chip Muffin =
+* Blueberry Muffin =
 
 
 License for code: GPL 3.0 or later.
