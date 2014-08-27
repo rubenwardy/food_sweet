@@ -3,7 +3,7 @@ Sweet Foods
 
 An expansion pack for the food mod, written by rubenwardy.
 
-Version 0.1
+Version 0.2
 
 * Strawberry cheese cake
 * Blueberry cheese cake
