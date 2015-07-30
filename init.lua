@@ -202,7 +202,7 @@ food.module("cake_cheese_blueberry", function()
 		cooktime = 10
 	})
 	food.craft({
-		output = "food_sweet:cakemix_cheese",
+		output = "food_sweet:cakemix_cheese_blueberry",
 		recipe = {
 			{"group:food_cheese","group:food_blueberry",""},
 			{"group:food_flour","group:food_sugar","group:food_egg"}
