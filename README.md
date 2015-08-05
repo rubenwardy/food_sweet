@@ -20,7 +20,7 @@ Version 0.2
 * Blueberry Muffin =
 
 
-License for code: GPL 3.0 or later.
+License for code: WTFPL
 License for textures: CC-BY-SA
 
 Have I missed out credit? Please tell me.
