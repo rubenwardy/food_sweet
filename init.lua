@@ -24,6 +24,11 @@ end
 
 food.support("strawberry", {"farming_plus:strawberry_item", "plantlib:strawberry", "bushes:strawberry"})
 food.support("rhubarb", "farming_plus:rhubarb_item")
+if minetest.get_modpath("farming") and farming.mod == "redo" then
+	food.disable_if("farming", "rhubarb")
+	food.disable_if("farming", "blueberry")
+end
+food.disable_if("ethereal", "strawberry")
 
 if minetest.setting_get("food_sweet_use_2d")==nil then
 	minetest.setting_set("food_sweet_use_2d", "1")
