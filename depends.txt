@@ -3,3 +3,4 @@ farming_plus?
 plantlib?
 bushes_classic?
 bushes?
+ethereal?
