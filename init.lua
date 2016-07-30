@@ -22,15 +22,21 @@ else
 	S = function ( s ) return s end
 end
 
-food.support("strawberry", {"farming_plus:strawberry_item", "plantlib:strawberry", "bushes:strawberry"})
+food.support("strawberry", {
+		"farming_plus:strawberry_item",
+		"plantlib:strawberry",
+		"bushes:strawberry",
+		"ethereal:strawberry"
+})
+
+food.support("blueberry", "bushes:blueberry")
+
 food.support("rhubarb", "farming_plus:rhubarb_item")
 
 if farming and farming.mod == "redo" then
 	food.support("rhubarb", "farming:rhubarb")
 	food.support("blueberry", "farming:blueberries")
 end
-
-food.support("strawberry", "ethereal:strawberry")
 
 if minetest.setting_get("food_sweet_use_2d")==nil then
 	minetest.setting_set("food_sweet_use_2d", "1")
