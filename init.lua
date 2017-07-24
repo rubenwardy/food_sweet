@@ -132,7 +132,7 @@ food.module("ice_bowl", function()
 			{"","default:clay_lump",""}
 		}
 	})
-end, true)
+end)
 
 food.module("food_wafer", function()
 	minetest.register_craftitem(":food:food_wafer", {
@@ -148,7 +148,7 @@ food.module("food_wafer", function()
 			{"","group:food_flour",""},
 		}
 	})
-end, true)
+end)
 
 food.module("ice_ball_chocolate",function()
 	minetest.register_craftitem("food_sweet:ice_ball_chocolate", {
@@ -164,7 +164,7 @@ food.module("ice_ball_chocolate",function()
 			{"group:food_milk_chocolate"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_ball_blueberry",function()
 	minetest.register_craftitem("food_sweet:ice_ball_blueberry", {
@@ -180,7 +180,7 @@ food.module("ice_ball_blueberry",function()
 			{"group:food_blueberry"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_ball_blackberry",function()
 	minetest.register_craftitem("food_sweet:ice_ball_blackberry", {
@@ -196,7 +196,7 @@ food.module("ice_ball_blackberry",function()
 			{"group:food_blackberry"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_ball_strawberry",function()
 	minetest.register_craftitem("food_sweet:ice_ball_strawberry", {
@@ -212,7 +212,7 @@ food.module("ice_ball_strawberry",function()
 			{"group:food_strawberry"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_ball_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_ball_vanilla", {
@@ -229,7 +229,7 @@ food.module("ice_ball_vanilla",function()
 			{"group:food_sugar","",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_ball_pistachio",function()
 	minetest.register_craftitem("food_sweet:ice_ball_pistachio", {
@@ -245,7 +245,7 @@ food.module("ice_ball_pistachio",function()
 			{"default:papyrus"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cream_pistachio_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_cream_pistachio_vanilla", {
@@ -261,7 +261,7 @@ food.module("ice_cream_pistachio_vanilla",function()
 			{"default:papyrus","group:food_butter"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cream_strawberry_raspberry",function()
 	minetest.register_craftitem("food_sweet:ice_cream_strawberry_raspberry", {
@@ -277,7 +277,7 @@ food.module("ice_cream_strawberry_raspberry",function()
 			{"group:food_strawberry","group:food_raspberry"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cream_blueberry_raspberry",function()
 	minetest.register_craftitem("food_sweet:ice_cream_blueberry_raspberry", {
@@ -293,7 +293,7 @@ food.module("ice_cream_blueberry_raspberry",function()
 			{"group:food_blueberry","group:food_raspberry"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cream_blueberry_lemon",function()
 	minetest.register_craftitem("food_sweet:ice_cream_blueberry_lemon", {
@@ -309,7 +309,7 @@ food.module("ice_cream_blueberry_lemon",function()
 			{"group:food_blueberry","group:food_lemon"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cream_blackberry_lemon",function()
 	minetest.register_craftitem("food_sweet:ice_cream_blackberry_lemon", {
@@ -325,7 +325,7 @@ food.module("ice_cream_blackberry_lemon",function()
 			{"group:food_blackberry","group:food_lemon"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cream_walnut_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_cream_walnut_vanilla", {
@@ -341,7 +341,7 @@ food.module("ice_cream_walnut_vanilla",function()
 			{"group:food_walnut","group:food_butter"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_blackberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_blackberry", {
@@ -357,7 +357,7 @@ food.module("ice_wafer_blackberry",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_blueberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_blueberry", {
@@ -373,7 +373,7 @@ food.module("ice_wafer_blueberry",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_chocolate",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_chocolate", {
@@ -389,7 +389,7 @@ food.module("ice_wafer_chocolate",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_strawberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_strawberry", {
@@ -405,7 +405,7 @@ food.module("ice_wafer_strawberry",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_pistachio",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_pistachio", {
@@ -421,7 +421,7 @@ food.module("ice_wafer_pistachio",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_vanilla", {
@@ -437,7 +437,7 @@ food.module("ice_wafer_vanilla",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_blackberry_pistachio",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_blackberry_pistachio", {
@@ -453,7 +453,7 @@ food.module("ice_wafer_blackberry_pistachio",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_blackberry_strawberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_blackberry_strawberry", {
@@ -469,7 +469,7 @@ food.module("ice_wafer_blackberry_strawberry",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_blueberry_chocolate",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_blueberry_chocolate", {
@@ -485,7 +485,7 @@ food.module("ice_wafer_blueberry_chocolate",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_blueberry_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_blueberry_vanilla", {
@@ -501,7 +501,7 @@ food.module("ice_wafer_blueberry_vanilla",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_chocolate_strawberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_chocolate_strawberry", {
@@ -517,7 +517,7 @@ food.module("ice_wafer_chocolate_strawberry",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_pistachio_blackberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_pistachio_blackberry", {
@@ -533,7 +533,7 @@ food.module("ice_wafer_pistachio_blackberry",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_pistachio_blueberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_pistachio_blueberry", {
@@ -549,7 +549,7 @@ food.module("ice_wafer_pistachio_blueberry",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_strawberry_blueberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_strawberry_blueberry", {
@@ -565,7 +565,7 @@ food.module("ice_wafer_strawberry_blueberry",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_strawberry_pistachio",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_strawberry_pistachio", {
@@ -581,7 +581,7 @@ food.module("ice_wafer_strawberry_pistachio",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_strawberry_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_strawberry_vanilla", {
@@ -597,7 +597,7 @@ food.module("ice_wafer_strawberry_vanilla",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_vanilla_blackberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_vanilla_blackberry", {
@@ -613,7 +613,7 @@ food.module("ice_wafer_vanilla_blackberry",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafer_vanilla_pistachio",function()
 	minetest.register_craftitem("food_sweet:ice_wafer_vanilla_pistachio", {
@@ -629,7 +629,7 @@ food.module("ice_wafer_vanilla_pistachio",function()
 			{"food:food_wafer",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafercream_blackberry_lemon",function()
 	minetest.register_craftitem("food_sweet:ice_wafercream_blackberry_lemon", {
@@ -645,7 +645,7 @@ food.module("ice_wafercream_blackberry_lemon",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafercream_blueberry_raspberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafercream_blueberry_raspberry", {
@@ -661,7 +661,7 @@ food.module("ice_wafercream_blueberry_raspberry",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafercream_pistachio_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_wafercream_pistachio_vanilla", {
@@ -677,7 +677,7 @@ food.module("ice_wafercream_pistachio_vanilla",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafercream_strawberry_raspberry",function()
 	minetest.register_craftitem("food_sweet:ice_wafercream_strawberry_raspberry", {
@@ -693,7 +693,7 @@ food.module("ice_wafercream_strawberry_raspberry",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafercream_walnut_vanilla",function()
 	minetest.register_craftitem("food_sweet:ice_wafercream_walnut_vanilla", {
@@ -709,7 +709,7 @@ food.module("ice_wafercream_walnut_vanilla",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_wafercream_blueberry_lemon",function()
 	minetest.register_craftitem("food_sweet:ice_wafercream_blueberry_lemon", {
@@ -725,7 +725,7 @@ food.module("ice_wafercream_blueberry_lemon",function()
 			{"food:food_wafer"}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_french",function()
 	minetest.register_craftitem("food_sweet:ice_cup_french", {
@@ -741,7 +741,7 @@ food.module("ice_cup_french",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_america",function()
 	minetest.register_craftitem("food_sweet:ice_cup_america", {
@@ -757,7 +757,7 @@ food.module("ice_cup_america",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_german",function()
 	minetest.register_craftitem("food_sweet:ice_cup_german", {
@@ -773,7 +773,7 @@ food.module("ice_cup_german",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_new_zealand",function()
 	minetest.register_craftitem("food_sweet:ice_cup_new_zealand", {
@@ -789,7 +789,7 @@ food.module("ice_cup_new_zealand",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_england",function()
 	minetest.register_craftitem("food_sweet:ice_cup_england", {
@@ -805,7 +805,7 @@ food.module("ice_cup_england",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_japan",function()
 	minetest.register_craftitem("food_sweet:ice_cup_japan", {
@@ -821,7 +821,7 @@ food.module("ice_cup_japan",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 food.module("ice_cup_zaire",function()
 	minetest.register_craftitem("food_sweet:ice_cup_zaire", {
@@ -837,7 +837,7 @@ food.module("ice_cup_zaire",function()
 			{"","group:food_bowl",""}
 		}
 	})
-end, true)
+end)
 
 -- Walnut and Coffee cake
 food.module("cake_walnut_coffee", function()
