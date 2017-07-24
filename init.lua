@@ -119,14 +119,14 @@ food.module("lemon",function()
 end, true)
 
 -- Ice
-food.module("ice-bowl", function()
-	minetest.register_craftitem(":food:icebowl",{
+food.module("ice_bowl", function()
+	minetest.register_craftitem("food_sweet:ice_bowl",{
 		description = S("Ice-Bowl"),
 		inventory_image = "food_sweet_ice_bowl.png",
-		groups = {food_bowl=1, food_ice=1}
+		groups = {food_bowl=1, food_ice = 1}
 	})
 	food.craft({
-		output = "food:icebowl",
+		output = "food_sweet:ice_bowl",
 		recipe = {
 			{"default:clay_lump","default:snow","default:clay_lump"},
 			{"","default:clay_lump",""}
@@ -134,15 +134,15 @@ food.module("ice-bowl", function()
 	})
 end, true)
 
-food.module("wafer", function()
-	minetest.register_craftitem(":food:wafer", {
+food.module("food_wafer", function()
+	minetest.register_craftitem(":food:food_wafer", {
 		description = S("Wafer"),
 		inventory_image = "food_sweet_ice_wafer.png",
 		on_use = food.item_eat(2),
 		groups = {food_wafer=1, food_ice=1}
 	})
 	food.craft({
-		output = "food:wafer",
+		output = "food:food_wafer",
 		recipe = {
 			{"group:food_flour","group:food_sugar","group:food_flour"},
 			{"","group:food_flour",""},
@@ -354,7 +354,7 @@ food.module("ice_wafer_blackberry",function()
 		output = "food_sweet:ice_wafer_blackberry",
 		recipe = {
 			{"food_sweet:ice_ball_blackberry"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -370,7 +370,7 @@ food.module("ice_wafer_blueberry",function()
 		output = "food_sweet:ice_wafer_blueberry",
 		recipe = {
 			{"food_sweet:ice_ball_blueberry"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -386,7 +386,7 @@ food.module("ice_wafer_chocolate",function()
 		output = "food_sweet:ice_wafer_chocolate",
 		recipe = {
 			{"food_sweet:ice_ball_chocolate"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -402,7 +402,7 @@ food.module("ice_wafer_strawberry",function()
 		output = "food_sweet:ice_wafer_strawberry",
 		recipe = {
 			{"food_sweet:ice_ball_strawberry"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -418,7 +418,7 @@ food.module("ice_wafer_pistachio",function()
 		output = "food_sweet:ice_wafer_pistachio",
 		recipe = {
 			{"food_sweet:ice_ball_pistachio"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -434,7 +434,7 @@ food.module("ice_wafer_vanilla",function()
 		output = "food_sweet:ice_wafer_vanilla",
 		recipe = {
 			{"food_sweet:ice_ball_vanilla"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -450,7 +450,7 @@ food.module("ice_wafer_blackberry_pistachio",function()
 		output = "food_sweet:ice_wafer_blackberry_pistachio",
 		recipe = {
 			{"food_sweet:ice_ball_blackberry","food_sweet:ice_ball_pistachio"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -466,7 +466,7 @@ food.module("ice_wafer_blackberry_strawberry",function()
 		output = "food_sweet:ice_wafer_blackberry_strawberry",
 		recipe = {
 			{"food_sweet:ice_ball_blackberry","food_sweet:ice_ball_strawberry"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -482,7 +482,7 @@ food.module("ice_wafer_blueberry_chocolate",function()
 		output = "food_sweet:ice_wafer_blueberry_chocolate",
 		recipe = {
 			{"food_sweet:ice_ball_blueberry","food_sweet:ice_ball_chocolate"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -498,7 +498,7 @@ food.module("ice_wafer_blueberry_vanilla",function()
 		output = "food_sweet:ice_wafer_blueberry_vanilla",
 		recipe = {
 			{"food_sweet:ice_ball_blueberry","food_sweet:ice_ball_vanilla"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -514,7 +514,7 @@ food.module("ice_wafer_chocolate_strawberry",function()
 		output = "food_sweet:ice_wafer_chocolate_strawberry",
 		recipe = {
 			{"food_sweet:ice_ball_chocolate","food_sweet:ice_ball_strawberry"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -530,7 +530,7 @@ food.module("ice_wafer_pistachio_blackberry",function()
 		output = "food_sweet:ice_wafer_pistachio_blackberry",
 		recipe = {
 			{"food_sweet:ice_ball_pistachio","food_sweet:ice_ball_blackberry"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -546,7 +546,7 @@ food.module("ice_wafer_pistachio_blueberry",function()
 		output = "food_sweet:ice_wafer_pistachio_blueberry",
 		recipe = {
 			{"food_sweet:ice_ball_pistachio","food_sweet:ice_ball_blueberry"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -562,7 +562,7 @@ food.module("ice_wafer_strawberry_blueberry",function()
 		output = "food_sweet:ice_wafer_strawberry_blueberry",
 		recipe = {
 			{"food_sweet:ice_ball_strawberry","food_sweet:ice_ball_blueberry"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -578,7 +578,7 @@ food.module("ice_wafer_strawberry_pistachio",function()
 		output = "food_sweet:ice_wafer_strawberry_pistachio",
 		recipe = {
 			{"food_sweet:ice_ball_strawberry","food_sweet:ice_ball_pistachio"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -594,7 +594,7 @@ food.module("ice_wafer_strawberry_vanilla",function()
 		output = "food_sweet:ice_wafer_strawberry_vanilla",
 		recipe = {
 			{"food_sweet:ice_ball_strawberry","food_sweet:ice_ball_vanilla"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -610,7 +610,7 @@ food.module("ice_wafer_vanilla_blackberry",function()
 		output = "food_sweet:ice_wafer_vanilla_blackberry",
 		recipe = {
 			{"food_sweet:ice_ball_vanilla","food_sweet:ice_ball_blackberry"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -626,7 +626,7 @@ food.module("ice_wafer_vanilla_pistachio",function()
 		output = "food_sweet:ice_wafer_vanilla_pistachio",
 		recipe = {
 			{"food_sweet:ice_ball_vanilla","food_sweet:ice_ball_pistachio"},
-			{"food:wafer",""}
+			{"food:food_wafer",""}
 		}
 	})
 end, true)
@@ -642,7 +642,7 @@ food.module("ice_wafercream_blackberry_lemon",function()
 		output = "food_sweet:ice_wafercream_blackberry_lemon",
 		recipe = {
 			{"food_sweet:ice_cream_blackberry_lemon"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -658,7 +658,7 @@ food.module("ice_wafercream_blueberry_raspberry",function()
 		output = "food_sweet:ice_wafercream_blueberry_raspberry",
 		recipe = {
 			{"food_sweet:ice_cream_blueberry_raspberry"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -674,7 +674,7 @@ food.module("ice_wafercream_pistachio_vanilla",function()
 		output = "food_sweet:ice_wafercream_pistachio_vanilla",
 		recipe = {
 			{"food_sweet:ice_cream_pistachio_vanilla"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -690,7 +690,7 @@ food.module("ice_wafercream_strawberry_raspberry",function()
 		output = "food_sweet:ice_wafercream_strawberry_raspberry",
 		recipe = {
 			{"food_sweet:ice_cream_strawberry_raspberry"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -706,7 +706,7 @@ food.module("ice_wafercream_walnut_vanilla",function()
 		output = "food_sweet:ice_wafercream_walnut_vanilla",
 		recipe = {
 			{"food_sweet:ice_cream_walnut_vanilla"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
@@ -722,7 +722,7 @@ food.module("ice_wafercream_blueberry_lemon",function()
 		output = "food_sweet:ice_wafercream_blueberry_lemon",
 		recipe = {
 			{"food_sweet:ice_cream_blueberry_lemon"},
-			{"food:wafer"}
+			{"food:food_wafer"}
 		}
 	})
 end, true)
